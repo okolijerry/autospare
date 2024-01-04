@@ -1,0 +1,299 @@
+.expert{
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 8rem;
+}
+
+.expert__container{
+  background: url(/src/images/bge3.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: fit-content;
+  width: 100%;
+ margin-top: 1rem;
+ padding-top: 6rem;
+}
+
+.expert__container h2{
+  color: #fff;
+}
+
+.expert__container h1{
+  width: fit-content;
+  padding: 8px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  
+  color: rgb(157, 152, 149);
+  box-shadow: 2px 4px 6px #777070;
+ margin: 2rem auto;
+}
+
+.expert__header .flex, .together img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  background: #f6f7f6;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px #777070;
+  padding: 1rem;
+}
+
+.expert__header .flexoo, .together{
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
+  color: #fff;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  box-shadow: 2px 4px 8px #777070;
+}
+
+.expert__header .flexoo p, .together p, .requirement li{
+  background: #f69002;
+  padding: 1rem;
+  width: fit-content;
+  height: fit-content;
+  color: #fff;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  box-shadow: 2px 4px 8px #777070;
+
+}
+
+.expert__header{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+ 
+}
+
+.flex img{
+  height: 20rem;
+  width: 40rem;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+}
+
+.flex h2{
+  color: #fff;
+  display: grid;
+  font-size: 1rem;
+  position: absolute;
+  top: 80%;
+  width: 50%;
+  padding: 10px;
+}
+
+.expertz{
+  height: max-content;
+  width: 100%;
+  background: #fff;
+}
+
+.expertz__container{
+  padding-top: 3rem;
+  width: 100%;
+  height: max-content;
+}
+
+.expertz__container .behave{
+  font-size: 1rem;
+}
+
+.expertz__container h3{
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: #777070;
+}
+
+.expertz__container h1, .expertz__container h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  box-shadow: 2px 4px 6px #777070;
+  width: fit-content;
+  padding: 1rem;
+  color: #f69002;
+}
+
+.together{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.sneeze{
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.sneeze li{
+  cursor: pointer;
+  width: fit-content;
+  padding: 1rem;
+  color: #a7a5a5;
+  background: #ffffff;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  box-shadow: 2px 3px 6px #545050;
+  display: inline;
+ 
+}
+
+.sneeze li a{
+ position: relative;
+}
+
+  
+
+.sneeze li a svg{
+  color: #f69002;
+  font-size: 1.5rem; 
+  position: absolute;
+  top: -.2rem;
+  gap: 8px;
+}
+
+.expertz__container .requirement{
+  margin: 3rem auto 0;
+  padding-bottom: 6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.itold{
+  background: #fff;
+  border-radius: 8px;
+  border: 2px 4px 8px 12px solid transparent;
+  box-shadow: 4px 8px 10px #777070;
+  width: 90%;
+ padding: 3rem;
+}
+
+
+
+@media screen and (max-width: 1200px){
+ .expertz__container h1{
+  margin-top: 4rem;
+ }
+}
+
+
+@media screen and (max-width: 1100px) {
+  .expertz__container h1{
+    margin-top: 8rem;
+   }
+}
+
+@media screen and (max-width: 1100px) {
+  .expertz__container h1{
+    margin-top: 16rem;
+   }
+}
+
+@media screen and (max-width: 1000px) {
+  .expertz__container h1{
+    margin-top: 30rem;
+   }
+}
+
+@media screen and (max-width: 900px) {
+   .expert__container h1{
+    font-size: 1.5rem;
+   }
+   .expert__header {
+    
+    grid-template-columns: 1fr;
+   }
+
+   .expert__container{
+    width: 90%;
+    margin-left: 2rem;
+   }
+
+   .expertz__container h1{
+    margin-top: 20rem;
+   }
+
+   .expertz{
+    width: 95%;
+    margin-left: 1rem;
+   }
+
+
+}
+
+
+
+@media screen and (max-width: 800px){
+  .expert__container{
+    width: 80%;
+    
+   }
+
+   .expertz__container h1{
+    margin-top: 20rem;
+   }
+}
+
+
+@media screen and (max-width: 500px) {
+  .expert__container{
+    width: 90%;
+   }
+
+   .expert__header p{
+    width: 20rem;
+   }
+
+   .expert__header img{
+    width: 20rem;
+   }
+
+   .flex h2{
+    color: #fff;
+    display: grid;
+    font-size: 1rem;
+    position: absolute;
+    top: -100%;
+    width: 50%;
+    padding: 10px;
+  }
+
+
+  .expertz__container h1{
+    margin-top: 2rem;
+  }
+
+
+
+  
+
+   
+}
+

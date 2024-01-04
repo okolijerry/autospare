@@ -1,0 +1,331 @@
+.contacts{
+  background: #fff;
+  position: relative;
+}
+
+.quote{
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  background: #fff;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+ .quote svg{
+  font-size: 3rem;
+  color: #7e7d7d;
+}
+
+
+
+.contact__header img{
+  height: 30rem;
+  object-position: bottom;
+  object-fit: contain;
+}
+
+.contacts__container img{
+  width: max-content;
+  height: 20rem;
+  object-position: bottom;
+  object-fit: contain;
+}
+
+.contact__header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 1rem;
+  width: 80%;
+  border-radius: 4px solid transparent;
+  border-radius: 4px;
+  box-shadow: 4px 6px 12px #7e7d7d;
+  margin: 0 auto;
+}
+
+.contact__header .asd{
+  display: grid;
+  grid-template-columns: 70% 25%;
+  gap: 5%;
+  place-items: center;
+  font-size: 1rem;
+}
+
+
+.contact__header .inStore{
+  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+  height: 20rem;
+  gap: 1.5rem;
+  margin-top: 6rem;
+}
+
+.inStore input, .labell .omor{
+  width: fit-content;
+  margin: 0 auto;
+  padding: 14px 30px;
+  border-radius: 6px;
+  background: rgb(255, 166, 0);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 4px 6px 6px #7e7d7d;
+  font-size: 1rem;
+}
+
+.inStore input::placeholder{
+  color: #fff;
+  font-size: 1rem;
+}
+
+.labell{
+  margin: 2rem auto; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  width: fit-content;
+   
+}
+
+.contacts__container article{
+  margin-top: 6rem;
+  border: 2px solid #fff;
+  width: fit-content;
+  border-radius: 4px;
+  box-shadow: 4px  4px 4px #7e7d7d;
+  font-size: 1.2rem;
+  padding: 8px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.labell .them, .labell .we, .labell .they{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ width: 100%;
+ font-size: 2rem;
+ border: 2px solid transparent;
+ color: #fff;
+ background: #b09e9e;
+ gap: 3rem;
+}
+
+
+.labell .them label, .labell .we label, .labell .they label{
+  font-size: 1rem;
+  color: #fff;
+}
+
+.labell .them h3, .labell .they h3{
+  color: #fff;
+}
+
+
+.labell .them select, .labell .we input, .labell .they select{
+  width: 10rem;
+  padding: 8px;
+  margin: 1rem auto;
+}
+
+
+.labell .them option, .labell .they option{
+  background: #b09e9e;
+  color: #fff;
+  width: fit-content;
+  padding: 2rem;
+  font-size: 1rem;
+}
+
+
+.form__container{
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  width: fit-content;
+  height: fitcontent;
+  border: 2px solid #7e7d7d;
+  border-radius: 2px 6px 6px #313030;
+  border-radius: 6px;
+  gap: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+.form input{
+  width: 100%;
+  padding: 2rem;
+  margin-top: 1rem;
+  border: 2px solid #7e7d7d;
+  border-radius: 4px;
+  box-shadow: 2px 4px 4px #7e7d7d;
+}
+
+.contacts small{
+  font-size: 1.2rem;
+  display: grid;
+  place-items: center;
+  width: fit-content;
+  padding: 0 1rem;
+  margin: 1rem  auto 0;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .labell .them, .labell .we, .labell .they{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width:100%;
+   font-size: 1.5rem;
+   padding: .5rem;
+   color: #fff;
+   background: #b09e9e;
+   border-radius: 10px;
+  }
+
+  .labell{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 1rem;
+    justify-content: center;
+  }
+
+  .form input{
+    width: 100%;
+    padding: 6rem;
+    margin-top: 1rem;
+    border: 2px solid #7e7d7d;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px #7e7d7d;
+  }
+
+  .labell .we input{
+    width: 10rem;
+    padding: 2rem auto;
+  }
+  .instore{
+    position: relative;
+  }
+
+  .inStore input{
+    width: fit-content;
+    right: 5rem;
+    position: absolute;
+    top: 8rem;
+  
+  }
+
+  .contact__header p{
+    display: none;
+  }
+  
+  .contacts__container article{
+    margin-top: 6rem;
+    border: 2px solid #fff;
+    width: fit-content;
+    border-radius: 4px;
+    box-shadow: 4px  4px 4px #7e7d7d;
+    font-size: 1rem;
+    padding: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form{
+    width: 20rem;
+    height: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .form input{
+    width: 10rem;
+    padding: 4rem;
+    margin-top: 4rem;
+    border: 2px solid #7e7d7d;
+    border-radius: 4px;
+    box-shadow: 2px 4px 4px #7e7d7d;
+  }
+
+  .footer__container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .contacts .contact__end{
+    
+    padding: .4rem  2rem .6rem .4rem;
+    margin-right: 8rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: -4px 2px 4px #4a4949;
+  }
+
+ 
+}
+
+@media screen and (max-width: 680px ) {
+  .inStore input{
+    width: fit-content;
+    right: 5rem;
+    position: absolute;
+    top: 16rem;
+  
+  } 
+
+  .form__container{
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: .3rem;
+    width: 80%;
+  }
+
+  .form__container article{
+    width: fit-content;
+    padding-top: 2rem;
+  }
+
+  .form input{
+    width: 10rem;
+    padding: 4rem;
+    margin-top: 4rem;
+    border: 2px solid #7e7d7d;
+    border-radius: 4px;
+    box-shadow: 2px 4px 4px #7e7d7d;
+  }
+
+
+}
+
+
+
+
+
+
